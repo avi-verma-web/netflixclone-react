@@ -1,0 +1,10 @@
+d365cbaa063086ba0cc9597fa7562898
+
+
+https://api.themoviedb.org/3/movie/550?api_key=d365cbaa063086ba0cc9597fa7562898
+
+
+
+<Row title="Top Rated" fetchURL={request.fetchtoprated}></Row>
+
+<Row title="Latest" fetchURL={request.fetchlatest}></Row>

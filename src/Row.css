@@ -1,0 +1,41 @@
+.row{
+    color: white;
+    margin-left: 20px;
+}
+
+.row_posters{
+    /* makes images or box inline */
+    display: flex;
+    /* scroll for y axis is hidden */
+    overflow-y: hidden;
+    /* scroll for x axis is pesent */
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* to hide the scroll bars */
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster{
+    /* maintains aspect ratio of images */
+    object-fit: contain; 
+    width:100%;
+    max-height: 100px;
+    /* for gaps between images */
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_poster:hover{
+    transform: scale(1.08);
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.09);
+}
+
